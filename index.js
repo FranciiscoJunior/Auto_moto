@@ -1,9 +1,14 @@
 let search = document.querySelector('.search-box');
 
-document.querySelector('#search-icon').onclik = () => {
-    search.classList.toggle('active');
-    menu.classList.remove('active');
-}
+//Funcionalidade que da interação comm a barra de pesquisa
+document.addEventListener("DOMContentLoaded", () => {
+    const searchIcon = document.getElementById("search-icon");
+    const searchBox = document.querySelector(".search-box");
+
+    searchIcon.addEventListener("click", () => {
+        searchBox.classList.toggle("active");
+    });
+});
 
 let menu = document.querySelector('.navbar');
 
@@ -19,6 +24,6 @@ window.onscroll = () => {
 
 let header = document.querySelector('header');
 
-window.addEventListener('scroll', () => { 
+window.addEventListener('scroll', () => {
     header.classList.toggle('shadow', window.scrollY > 0);
 });
