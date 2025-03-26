@@ -9,12 +9,11 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    background-color: var(--bc-color);
 }
 
 :root {
     --main-color: #d90429;
-    --text-color:rgb(19, 0, 124);
+    --text-color:rgb(33, 6, 187);
     --bg-color: #fff;
 }
 
@@ -37,6 +36,7 @@ img {
 }
 
 body {
+    background-color:rgb(58, 53, 53);
     color: var(--text-color);
 }
 
@@ -151,7 +151,7 @@ header.shadow #search-icon{
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(img/background-home.jpg);
+    background: url(img/Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
