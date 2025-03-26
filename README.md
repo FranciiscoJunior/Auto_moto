@@ -16,6 +16,6 @@
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * # Autores
-[<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/FranciiscoJunior)
+Francisco Júnior(https://github.com/FranciiscoJunior)
 * [Licença](#licença)
 * [Conclusão](#conclusão)
