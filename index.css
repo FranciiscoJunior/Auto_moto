@@ -151,7 +151,7 @@ header.shadow #search-icon{
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(img/Home.jpg);
+    background: url(img/background-home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
