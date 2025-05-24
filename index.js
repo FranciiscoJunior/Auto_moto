@@ -1,18 +1,13 @@
 let search = document.querySelector('.search-box');
 
-//Funcionalidade que da interação comm a barra de pesquisa
-document.addEventListener("DOMContentLoaded", () => {
-    const searchIcon = document.getElementById("search-icon");
-    const searchBox = document.querySelector(".search-box");
-
-    searchIcon.addEventListener("click", () => {
-        searchBox.classList.toggle("active");
-    });
-});
+document.querySelector('#search-icon').onclick = () => {
+    search.classList.toggle('active');
+    menu.classList.remove('active');
+}
 
 let menu = document.querySelector('.navbar');
 
-document.querySelector('#menu-icon').onclik = () => {
+document.querySelector('#menu-icon').onclick = () => {
     menu.classList.toggle('active');
     search.classList.remove('active');
 }
